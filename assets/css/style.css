@@ -171,6 +171,7 @@ header>div:nth-child(3) p {
 /* DIV HONDA BIZ */
 #div-honda-biz {
     background-color: #f2f2f2;
+    margin-bottom: 100px;
 }
 
 .div-honda-biz-row {
@@ -225,4 +226,91 @@ header>div:nth-child(3) p {
 
 .div-honda-biz-row>div>div button:hover #div-bg-hover {
     height: 100%;
+}
+
+/* SERVIÇOS */
+
+#div-servicos {
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.servico-item {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-blend-mode: multiply;
+    background-color: rgba(0, 0, 0, 0.267);
+    width: 552px;
+    height: 494px;
+    padding: 35px;
+    display: flex;
+    align-items: flex-end;
+    border-bottom: 2px solid #cc0000;
+    color: white;
+    cursor: pointer;
+    transition: all 200ms ease-in-out;
+}
+
+.servico-item:hover {
+    background-size: 110%;
+}
+
+
+.servico-item>div {
+    width: 100%;
+}
+
+.servico-item h1 {
+    margin-bottom: 20px;
+}
+
+.servico-item>div>div {
+    position: relative;
+    height: 40px;
+    width: 100%;
+}
+
+.p-servicos {
+    transition: all 200ms ease-in-out;
+    position: absolute;
+    cursor: pointer;
+}
+
+.btn-servicos {
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+    padding: 10px 70px;
+    border: 1px solid white;
+    transition: all 200ms ease-in-out;
+    position: absolute;
+    opacity: 0;
+    transform: translateY(40px);
+    cursor: pointer;
+}
+
+.btn-servicos:hover {
+    background-color: rgba(255, 255, 255, 0.158);
+}
+
+.servico-item:hover .btn-servicos {
+    opacity: 1;
+    transform: translateY(0px);
+
+}
+
+.servico-item:hover .p-servicos {
+    opacity: 0;
+}
+
+#div-servicos>.servico-item:nth-child(1) {
+    background-image: url(../img/servico-honda-1.webp);
+}
+
+#div-servicos>.servico-item:nth-child(2) {
+    background-image: url(../img/servico-honda-2.webp);
+
 }
