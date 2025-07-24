@@ -239,7 +239,7 @@ header>div:nth-child(3) p {
 .servico-item {
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 102%;
     background-blend-mode: multiply;
     background-color: rgba(0, 0, 0, 0.267);
     width: 552px;
