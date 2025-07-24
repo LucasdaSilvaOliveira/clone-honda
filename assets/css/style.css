@@ -221,7 +221,6 @@ header>div:nth-child(3) p {
     left: 0;
     bottom: 0;
     transition: all 150ms ease-in-out;
-    /* transform: rotate(90deg); */
 }
 
 .div-honda-biz-row>div>div button:hover #div-bg-hover {
@@ -313,4 +312,58 @@ header>div:nth-child(3) p {
 #div-servicos>.servico-item:nth-child(2) {
     background-image: url(../img/servico-honda-2.webp);
 
+}
+
+/* HONDA STORE */
+
+#div-honda-store {
+    background-color: rgb(242, 242, 242);
+    display: flex;
+}
+
+#div-honda-store > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+#store-content {
+    width: 700px;
+}
+
+#store-content h1 {
+    font-size: 35px;
+}
+
+#store-content p {
+    color: #595959;
+    font-size: 18px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#store-content button {
+    background-color: #cc0000;
+     padding: 15px 20px;
+    border: none;
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+    position: relative;
+    cursor: pointer;
+}
+
+#div-bg-hover-store {
+    height: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.281);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transition: all 150ms ease-in-out;
+}
+
+#store-content button:hover #div-bg-hover-store {
+    height: 100%;
 }
