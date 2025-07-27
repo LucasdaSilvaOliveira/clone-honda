@@ -321,7 +321,7 @@ header>div:nth-child(3) p {
     display: flex;
 }
 
-#div-honda-store > div {
+#div-honda-store>div {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -345,7 +345,7 @@ header>div:nth-child(3) p {
 
 #store-content button {
     background-color: #cc0000;
-     padding: 15px 20px;
+    padding: 15px 20px;
     border: none;
     font-size: 14px;
     color: white;
@@ -366,4 +366,70 @@ header>div:nth-child(3) p {
 
 #store-content button:hover #div-bg-hover-store {
     height: 100%;
+}
+
+/* DESCUBRA MAIS */
+
+#div-descubra-mais {
+    background-color: #232323;
+    border-bottom: 2px solid #cc0000;
+    color: white;
+    padding: 80px 0px;
+}
+
+#descubra-content {
+    width: 1200px;
+    margin: auto;
+}
+
+#descubra-itens {
+    display: flex;
+    gap: 20px;
+    margin-top: 40px;
+}
+
+.descubra-item-card {
+    width: 360px;
+    height: 519px;
+    padding: 20px;
+    border-bottom: 2px solid #cc0000;
+    display: flex;
+    align-items: end;
+    cursor: pointer;
+    transition: all 200ms ease-in-out;
+    background-size: 102%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode: multiply;
+    background-color: rgba(0, 0, 0, 0.753);
+}
+
+.descubra-item-card:hover {
+    background-size: 110%;
+}
+
+.descubra-item-card:nth-child(1) {
+    background-image: url(../img/foto-bg-1-descubra.webp);
+}
+
+.descubra-item-card:nth-child(2) {
+    background-image: url(../img/foto-bg-2-descubra.webp);
+}
+
+.descubra-item-card:nth-child(3) {
+    background-image: url(../img/foto-bg-3-descubra.jpg);
+}
+
+.descubra-item-card h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.descubra-item-card p {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.descubra-item-card a {
+    color: white;
 }
