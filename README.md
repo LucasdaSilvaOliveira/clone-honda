@@ -23,7 +23,7 @@ Reproduzir o layout e interações de um site profissional para treinar habilida
 
 ## 📸 Preview
 
-![Preview do projeto](link-da-sua-imagem-aqui)  
+![Preview do projeto]([link-da-sua-imagem-aqui](https://lucasdasilvaoliveira.github.io/clone-honda/))  
 *Substitua pelo link de uma imagem ou GIF do seu projeto*
 
 ---
