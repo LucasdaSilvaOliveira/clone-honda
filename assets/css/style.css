@@ -433,3 +433,80 @@ header>div:nth-child(3) p {
 .descubra-item-card a {
     color: white;
 }
+
+/* FOOTER */
+
+#footer-first-content {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding: 50px 0px;
+    background-color: #f1f2f2;
+}
+
+#footer-first-content>div:nth-child(1) img {
+    width: 290px;
+}
+
+#footer-first-content>div:nth-child(1) p {
+    font-size: 25px;
+    font-weight: bold;
+    color: #232323;
+    margin-top: 25px;
+}
+
+#footer-first-content>div:nth-child(1)>div {
+    margin-top: 25px;
+}
+
+#footer-first-content>div:nth-child(1) i {
+    color: #636363;
+    font-size: 25px;
+    cursor: pointer;
+    transition: all 150ms ease-in-out;
+}
+
+#footer-first-content>div:nth-child(1) i:hover {
+    color: #cc0000;
+}
+
+#footer-first-content-div-nav {
+    display: flex;
+    gap: 80px;
+}
+
+#footer-first-content-div-nav>div {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#footer-first-content-div-nav>div h1 {
+    color: #cc0000;
+    font-size: 20px;
+}
+
+#footer-first-content-div-nav>div a {
+    color: #232323;
+    text-decoration: none;
+    transition: all 150ms ease-in-out;
+}
+
+#footer-first-content-div-nav>div a:hover {
+    color: #cc0000;
+    text-decoration: underline;
+}
+
+#footer-second-content {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+    font-size: 12px;
+    background-color: #bebebe;
+    padding: 15px 0px;
+}
+
+#footer-second-content a {
+    color: black;
+}
