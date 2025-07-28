@@ -32,14 +32,13 @@ Reproduzir o layout e interações de um site profissional para treinar habilida
 
 ```bash
 📦 honda-clone/
-├── 📁 css/
-│   └── style.css
-├── 📁 js/
-│   └── script.js
-├── 📁 libs/
-│   ├── jquery.min.js
-│   ├── owl.carousel.min.js
-│   └── ...
-├── 📁 images/
-│   └── ...
-└── index.html
+├── 📁 assets/
+│   ├── 📁 css/
+│   │   └── style.css
+│   ├── 📁 img/
+│   │   └── (imagens do projeto)
+│   ├── 📁 js/
+│   │   └── script.js
+│   └── 📁 lib/
+├── index.html
+
